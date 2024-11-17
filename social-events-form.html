@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Event Planning Form</title>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="date"],
+        .form-group input[type="time"],
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #800080;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #600060;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Social Event Planning Form</h1>
+        <form>
+            <div class="form-group">
+                <label>Event Name:</label>
+                <input type="text" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Host Name:</label>
+                <input type="text" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Event Date:</label>
+                <input type="date" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Event Time:</label>
+                <input type="time" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Location:</label>
+                <input type="text" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Number of Guests:</label>
+                <input type="number" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Event Type:</label>
+                <select>
+                    <option>Dinner Party</option>
+                    <option>Cocktail Party</option>
+                    <option>BBQ/Outdoor Gathering</option>
+                    <option>Game Night</option>
+                    <option>Holiday Celebration</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Food & Beverages:</label>
+                <textarea rows="4" placeholder="Include dietary restrictions"></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label>Entertainment/Activities:</label>
+                <textarea rows="4" placeholder="Music, games, etc."></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label>Additional Notes:</label>
+                <textarea rows="4" placeholder="Special requests, dress code, etc."></textarea>
+            </div>
+            
+            <button type="submit">Save Event Plan</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Event Planning</title>
+</head>
+<body class="bg-gray-50">
+    <div class="max-w-4xl mx-auto p-6">
+        <div class="bg-white rounded-lg shadow-lg p-8">
+            <div class="text-center mb-8">
+                <h1 class="text-3xl font-bold text-gray-800 mb-2">Corporate Event Planning</h1>
+                <p class="text-gray-600">Plan your next successful business event</p>
+            </div>
+
+            <form class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Event Name</label>
+                        <input type="text" class="w-full p-2 border rounded-md" required>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Company Name</label>
+                        <input type="text" class="w-full p-2 border rounded-md" required>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Event Date</label>
+                        <input type="date" class="w-full p-2 border rounded-md" required>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Event Time</label>
+                        <input type="time" class="w-full p-2 border rounded-md" required>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Event Type</label>
+                        <select class="w-full p-2 border rounded-md">
+                            <option>Conference</option>
+                            <option>Team Building</option>
+                            <option>Product Launch</option>
+                            <option>Holiday Party</option>
+                            <option>Workshop</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Number of Attendees</label>
+                        <input type="number" class="w-full p-2 border rounded-md" required>
+                    </div>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="block text-gray-700 font-medium">Venue Requirements</label>
+                    <textarea class="w-full p-2 border rounded-md h-24"></textarea>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="block text-gray-700 font-medium">Catering Requirements</label>
+                    <textarea class="w-full p-2 border rounded-md h-24"></textarea>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="block text-gray-700 font-medium">Equipment Needed</label>
+                    <textarea class="w-full p-2 border rounded-md h-24"></textarea>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="bg-gray-800 text-white px-8 py-3 rounded-md hover:bg-gray-900">
+                        Save Event Plan
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

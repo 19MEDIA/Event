@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Birthday Party Planning</title>
+</head>
+<body class="bg-gray-50">
+    <div class="max-w-4xl mx-auto p-6">
+        <div class="bg-white rounded-lg shadow-lg p-8">
+            <div class="text-center mb-8">
+                <h1 class="text-3xl font-bold text-gray-800 mb-2">Kids' Birthday Party Planning</h1>
+                <p class="text-gray-600">Make their special day unforgettable!</p>
+            </div>
+
+            <form class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Birthday Child's Name</label>
+                        <input type="text" class="w-full p-2 border rounded-md" required>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Age Turning</label>
+                        <input type="number" class="w-full p-2 border rounded-md" required>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Party Date</label>
+                        <input type="date" class="w-full p-2 border rounded-md" required>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Party Time</label>
+                        <input type="time" class="w-full p-2 border rounded-md" required>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Party Theme</label>
+                        <select class="w-full p-2 border rounded-md">
+                            <option>Superheroes</option>
+                            <option>Princess</option>
+                            <option>Animals</option>
+                            <option>Sports</option>
+                            <option>Space</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-gray-700 font-medium">Number of Kids</label>
+                        <input type="number" class="w-full p-2 border rounded-md" required>
+                    </div>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="block text-gray-700 font-medium">Food & Snacks Preferences</label>
+                    <textarea class="w-full p-2 border rounded-md h-24"></textarea>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="block text-gray-700 font-medium">Activities & Games</label>
+                    <textarea class="w-full p-2 border rounded-md h-24"></textarea>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="block text-gray-700 font-medium">Additional Notes</label>
+                    <textarea class="w-full p-2 border rounded-md h-24"></textarea>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="bg-pink-500 text-white px-8 py-3 rounded-md hover:bg-pink-600">
+                        Save Birthday Plan
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
